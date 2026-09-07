@@ -1,0 +1,7 @@
+governance/evidence.json
+governance/suite_results.xml
+governance/journal.sqlite3
+governance/verdicts/
+__pycache__/
+*.pyc
+.pytest_cache/
