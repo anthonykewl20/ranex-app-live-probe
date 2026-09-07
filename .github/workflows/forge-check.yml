@@ -1,7 +1,7 @@
 name: forge
 on: [pull_request]
 jobs:
-  ranex/acceptance:
+  forge:
     name: ranex/acceptance
     runs-on: ubuntu-latest
     steps:
