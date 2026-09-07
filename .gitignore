@@ -5,3 +5,4 @@ governance/verdicts/
 __pycache__/
 *.pyc
 .pytest_cache/
+.local/
