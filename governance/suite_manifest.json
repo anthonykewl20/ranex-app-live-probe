@@ -1,0 +1,1 @@
+{"expected_skips":{},"suite":["tests/test_probe.py::test_gate_blocks_absence","tests/test_probe.py::test_subject_materialises","tests/test_probe.py::test_verdict_binding_is_content_addressed"]}
