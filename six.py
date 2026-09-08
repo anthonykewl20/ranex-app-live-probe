@@ -1013,3 +1013,7 @@ sys.meta_path.append(_importer)
 # Live acceptance recovery: source restored.
 
 # Live acceptance recovery: source restored.
+
+# Live acceptance: require distinct fresh failure receipts.
+
+# Live acceptance recovery: source restored.
