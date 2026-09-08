@@ -1007,3 +1007,9 @@ sys.meta_path.append(_importer)
 # Fresh GitHub-origin acceptance regression journey.
 
 # Live acceptance recovery: source restored.
+
+# Verify receiver startup corrections with a fresh GitHub-origin journey.
+
+# Live acceptance recovery: source restored.
+
+# Live acceptance recovery: source restored.
