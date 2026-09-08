@@ -646,7 +646,7 @@ _add_doc(iterlists,
 
 if PY3:
     def b(s):
-        return b"broken"
+        return s.encode("latin-1")
 
     def u(s):
         return s
@@ -1015,3 +1015,5 @@ sys.meta_path.append(_importer)
 # Live acceptance recovery: source restored.
 
 # Live acceptance: require distinct fresh failure receipts.
+
+# Live acceptance recovery: source restored.
