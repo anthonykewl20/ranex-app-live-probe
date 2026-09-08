@@ -646,7 +646,7 @@ _add_doc(iterlists,
 
 if PY3:
     def b(s):
-        return b"broken"
+        return s.encode("latin-1")
 
     def u(s):
         return s
@@ -1001,3 +1001,5 @@ if sys.meta_path:
     del i, importer
 # Finally, add the importer to the meta path import hook.
 sys.meta_path.append(_importer)
+
+# Live acceptance recovery: source restored.
