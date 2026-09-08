@@ -1,8 +1,0 @@
-name: forge
-on: [pull_request]
-jobs:
-  forge:
-    name: ranex/acceptance
-    runs-on: ubuntu-latest
-    steps:
-      - run: exit 0
