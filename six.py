@@ -646,7 +646,7 @@ _add_doc(iterlists,
 
 if PY3:
     def b(s):
-        return s.encode("latin-1")
+        return b"broken"
 
     def u(s):
         return s
