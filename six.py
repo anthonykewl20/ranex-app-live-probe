@@ -1021,3 +1021,7 @@ sys.meta_path.append(_importer)
 # Explicit XPASS live acceptance exercise, 2026-09-09.
 
 # Live acceptance recovery: source restored.
+
+# Combined reporter live acceptance exercise, 2026-09-09.
+
+# Live acceptance recovery: source restored.
