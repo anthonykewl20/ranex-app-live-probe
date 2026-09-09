@@ -1029,3 +1029,7 @@ sys.meta_path.append(_importer)
 # Retained signed-observation acceptance exercise, 2026-09-09.
 
 # Live acceptance recovery: source restored.
+
+# Installed-wheel acceptance exercise, 2026-09-09.
+
+# Live acceptance recovery: source restored.
