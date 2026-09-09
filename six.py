@@ -1017,3 +1017,7 @@ sys.meta_path.append(_importer)
 # Live acceptance: require distinct fresh failure receipts.
 
 # Live acceptance recovery: source restored.
+
+# Explicit XPASS live acceptance exercise, 2026-09-09.
+
+# Live acceptance recovery: source restored.
