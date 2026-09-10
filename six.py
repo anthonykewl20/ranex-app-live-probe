@@ -21,7 +21,6 @@
 """Utilities for writing code that runs on Python 2 and 3"""
 
 from __future__ import absolute_import
-import os  # a real unused import, injected for the live negative control
 
 import functools
 import itertools
