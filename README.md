@@ -7,3 +7,5 @@ suite claim. The injected F401 above was removed; this line makes the repaired
 tree distinct from the tree that was already verified.
 
 Re-delivery probe for the repaired head.
+
+Fresh head after restoring the webhook tunnel.
