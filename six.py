@@ -1,4 +1,3 @@
-import os  # a real unused import, injected for the live negative control
 # Copyright (c) 2010-2024 Benjamin Peterson
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,6 +21,7 @@ import os  # a real unused import, injected for the live negative control
 """Utilities for writing code that runs on Python 2 and 3"""
 
 from __future__ import absolute_import
+import os  # a real unused import, injected for the live negative control
 
 import functools
 import itertools
