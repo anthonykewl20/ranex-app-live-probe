@@ -14,3 +14,16 @@ gates:
     - --junitxml=governance/suite_results.xml
     - test_six.py
     results_artifact: governance/suite_results.xml
+  - claim_id: scan
+    command:
+    - /home/soultransit/.local/bin/ruff
+    - check
+    - --no-cache
+    - --isolated
+    - --select=F401
+    - --output-format=sarif
+    - --output-file=governance/scan.sarif
+    - six.py
+    results_artifact: governance/scan.sarif
+    results_reporter: sarif-2.1.0
+    results_manifest: governance/scan-manifest.json
