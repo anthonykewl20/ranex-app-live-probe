@@ -1033,3 +1033,6 @@ sys.meta_path.append(_importer)
 # Installed-wheel acceptance exercise, 2026-09-09.
 
 # Live acceptance recovery: source restored.
+
+
+import os  # injected unused import (OCR subject probe)
